@@ -1,0 +1,20 @@
+{
+  "name": "uebung4_schrenk_dominik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SpecRunner.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@html-eslint/eslint-plugin": "^0.24.1",
+    "@html-eslint/parser": "^0.24.1",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0"
+  }
+}
