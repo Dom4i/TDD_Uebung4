@@ -10,6 +10,7 @@ export default [
     },
   },
   pluginJs.configs.recommended,
+  
   {
     rules: {
       "indent": ["error", 2],
@@ -18,7 +19,14 @@ export default [
       "semi": ["error", "always"],
       "no-trailing-spaces": "off",
       "space-before-function-paren": ["error", "never"],
+      "no-undef": "off",
       "comma-dangle": ["error", "never"]
+    },
+    globals: {
+      "calculator": "readonly",
+      "StringCalculator": "readonly",
+      "jasmine": 'readonly',
+      "expect": 'readonly'
     }
   }
 ];
