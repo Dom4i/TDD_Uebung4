@@ -7,13 +7,13 @@ export default [
       globals: globals.browser,
       ecmaVersion: 2021,
       sourceType: "module"
-    }
+    },
   },
   pluginJs.configs.recommended,
   {
     rules: {
       "indent": ["error", 2],
-      "linebreak-style": ["error", "unix"], // Akzeptiert CRLF Zeilenumbrüche
+      "linebreak-style": ["error", "windows"], // Akzeptiert CRLF Zeilenumbrüche
       "quotes": ["error", "double"],
       "semi": ["error", "always"],
       "no-trailing-spaces": "off",
