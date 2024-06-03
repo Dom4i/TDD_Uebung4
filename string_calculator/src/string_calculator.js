@@ -14,21 +14,21 @@ StringCalculator.prototype.add = function(map) {
 	}
 	else {
 		for (var i = map.length; i >= 0 ; i--) { //durchläuft die gesamte map von ganz hinten bis vorne.
-			if(map[i] === 'X') {
+			if(map[i] === "X") {
 				foundShip = true; //y Koordinate des Schiffs gefunden (Spalte gefunden)
-				console.log(x, y); //debugging
+        console.log(x, y); //debugging
 			}
 			if(foundShip === false) {
-				if (map[i] === '\n') {
+				if (map[i] === "\n") {
 					y++;
 				}
 			}
 			else {
-				if (map[i] === '.') {
+				if (map[i] === ".") {
 					x++; 
 					console.log(x, y); //debugging
 				}
-				else if (map[i] === '\n') { //x Koordinate des Schiffs gefunden (Zeile gefunden)
+				else if (map[i] === "\n") { //x Koordinate des Schiffs gefunden (Zeile gefunden)
 					return [x,y]; 
 				}
 			}
