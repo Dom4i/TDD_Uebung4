@@ -14,9 +14,9 @@ export default [
   {
     rules: {
       "indent": ["error", 2],
-      "linebreak-style": ["error", "windows"], // Akzeptiert CRLF Zeilenumbrüche
-      "quotes": ["error", "double"],
-      "semi": ["error", "always"],
+      "linebreak-style": ["error", "windows"], // "unix" for Mac users
+      "quotes": ["error", "double"], 
+      "semi": ["error", "always"], 
       "no-trailing-spaces": "off",
       "space-before-function-paren": ["error", "never"],
       "no-undef": "off",
